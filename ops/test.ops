@@ -1,0 +1,5 @@
+import("orocos-io-components")
+loadComponent("j","JoystickComponent")
+setActivity("j",0.005,10,ORO_SCHED_OTHER)
+j.configure()
+j.start()
